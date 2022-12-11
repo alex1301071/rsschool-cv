@@ -3,7 +3,7 @@ ___
 
 ## Contacts:
 * Discord: alex130
-* Telegram: @alex1301071
+* Telegram: @s90_z
 * E-mail: alex1301071@gmail.com
 
 ## About myself:
@@ -14,7 +14,8 @@ ___
 * html and css
 
 ## Code example:
-Kata 'Pick peaks' from CodeWars.com (link):
+Kata 'Pick peaks' from CodeWars.com [link](https://www.codewars.com/kata/reviews/565f448fb889330d06000116/groups/6305062a6468eb0001ed82ef):
+```
 	def pick_peaks(arr):
     t, pos = 0, []
     for i in range(1, len(arr)):
@@ -27,7 +28,7 @@ Kata 'Pick peaks' from CodeWars.com (link):
     if t: pos.pop()
     peaks = [arr[i] for i in pos]
     return {"pos":pos, "peaks":peaks}
-
+```
 ## Experience
 * No programming experience
 
