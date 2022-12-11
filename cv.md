@@ -19,15 +19,15 @@ Kata 'Pick peaks' from CodeWars.com [link](https://www.codewars.com/kata/reviews
 def pick_peaks(arr):
 	t, pos = 0, []
 	for i in range(1, len(arr)):
-        if arr[i-1] < arr[i]:
-            if t: pos.pop()
-            pos.append(i)
-            t = 1
-        if arr[i-1] > arr[i]:
-            t = 0
-    if t: pos.pop()
-    peaks = [arr[i] for i in pos]
-    return {"pos":pos, "peaks":peaks}
+		if arr[i-1] < arr[i]:
+			if t: pos.pop()
+			pos.append(i)
+			t = 1
+		if arr[i-1] > arr[i]:
+			t = 0
+	if t: pos.pop()
+	peaks = [arr[i] for i in pos]
+return {"pos":pos, "peaks":peaks}
 ```
 ## Experience
 * No programming experience
