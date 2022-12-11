@@ -16,9 +16,9 @@ ___
 ## Code example:
 Kata 'Pick peaks' from CodeWars.com [link](https://www.codewars.com/kata/reviews/565f448fb889330d06000116/groups/6305062a6468eb0001ed82ef):
 ```
-	def pick_peaks(arr):
-    t, pos = 0, []
-    for i in range(1, len(arr)):
+def pick_peaks(arr):
+	t, pos = 0, []
+	for i in range(1, len(arr)):
         if arr[i-1] < arr[i]:
             if t: pos.pop()
             pos.append(i)
